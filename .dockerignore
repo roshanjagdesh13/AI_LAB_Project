@@ -1,0 +1,13 @@
+.venv/
+venv/
+.git/
+**/__pycache__/
+*.pyc
+docs/
+scripts/
+requirements-dev.txt
+*.patch
+Dockerfile
+docker-compose.yml
+.dockerignore
+models/runs/

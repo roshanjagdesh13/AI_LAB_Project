@@ -1,0 +1,71 @@
+{
+  "quality": {
+    "rows_raw": 19020,
+    "missing_cells": 0,
+    "duplicates_dropped": 115,
+    "rows_clean": 18905
+  },
+  "n_features": 10,
+  "class_counts": {
+    "gamma": 12332,
+    "hadron": 6573
+  },
+  "split_sizes": {
+    "train": 11343,
+    "valid": 3781,
+    "test": 3781,
+    "train_oversampled": 14798
+  },
+  "features": {
+    "fLength": {
+      "min": 7.3606,
+      "max": 334.177,
+      "median": 37.043
+    },
+    "fWidth": {
+      "min": 0.0,
+      "max": 228.0385,
+      "median": 17.1041
+    },
+    "fSize": {
+      "min": 1.9413,
+      "max": 5.1795,
+      "median": 2.7368
+    },
+    "fConc": {
+      "min": 0.0137,
+      "max": 0.893,
+      "median": 0.3547
+    },
+    "fConc1": {
+      "min": 0.0008,
+      "max": 0.643,
+      "median": 0.1964
+    },
+    "fAsym": {
+      "min": -457.9161,
+      "max": 575.2407,
+      "median": 4.4285
+    },
+    "fM3Long": {
+      "min": -318.3002,
+      "max": 238.321,
+      "median": 15.2445
+    },
+    "fM3Trans": {
+      "min": -205.8947,
+      "max": 179.851,
+      "median": 0.0
+    },
+    "fAlpha": {
+      "min": 0.0,
+      "max": 90.0,
+      "median": 17.658
+    },
+    "fDist": {
+      "min": 1.2826,
+      "max": 495.561,
+      "median": 192.198
+    }
+  }
+}

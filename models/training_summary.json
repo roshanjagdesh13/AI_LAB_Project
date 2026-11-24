@@ -1,0 +1,35 @@
+{
+  "SVM (RBF)": {
+    "best_params": {
+      "C": 10,
+      "gamma": "scale"
+    },
+    "cv_roc_auc": 0.9221583235927959
+  },
+  "Random Forest": {
+    "best_params": {
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "n_estimators": 200
+    },
+    "cv_roc_auc": 0.9315672714223986
+  },
+  "Neural Network": {
+    "best_params": {
+      "num_nodes": 32,
+      "dropout": 0.2,
+      "lr": 0.005,
+      "batch_size": 32
+    },
+    "val_loss": 0.3227445185184479,
+    "epochs_trained": 27
+  },
+  "train_seconds": {
+    "Logistic Regression": 0.020017227001517313,
+    "SVM (RBF)": 61.94985529800033,
+    "Random Forest": 56.658426571000746,
+    "Neural Network": 172.9664104040021
+  },
+  "mode": "full",
+  "full_train_seconds": 291.5947095000047
+}
